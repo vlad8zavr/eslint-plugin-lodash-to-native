@@ -6,7 +6,24 @@
 
 **Install**
 
+1. **esLint**
 
+`npm i eslint --save-dev`
+
+2. **плагин**
+
+`npm i https://github.com/vlad8zavr/eslint-plugin-lodash-to-native.git --save-dev`
+
+3. в файл `.eslintrc.js` добавить следующее:
+
+```javascript
+"plugins": [
+    "lodash-to-native"
+],
+"rules": {
+    "lodash-to-native/map": "warn"
+},
+```
 
 **Examples**
 
