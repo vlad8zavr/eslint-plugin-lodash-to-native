@@ -19,5 +19,8 @@
   "homepage": "https://github.com/vlad8zavr/eslint-plugin-lodash-to-native#readme",
   "devDependencies": {
     "eslint": "^6.5.0"
+  },
+  "dependencies": {
+    "requireindex": "^1.2.0"
   }
 }
